@@ -30,6 +30,7 @@ export default function Header() {
           />
         </div>
       </div>
+
       {/* Center */}
       <div className="flex flex-grow justify-center">
         <div className="flex space-x-6 md:space-x-2">
@@ -46,7 +47,7 @@ export default function Header() {
         {/* Profile Pic */}
         <Image src="/profile-pic.png" width={40} height={40} layout="fixed" />
 
-        <p className="whitespace-nowrap pr-3 font-semibold">
+        <p className="hidden whitespace-nowrap pr-3 font-semibold md:inline-flex">
           Calviano Nathanael
         </p>
         <ViewGridIcon className="icon" />
