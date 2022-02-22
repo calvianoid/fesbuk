@@ -44,6 +44,8 @@ export default function Header() {
       {/* Right */}
       <div className="flex items-center justify-end sm:space-x-2">
         {/* Profile Pic */}
+        <Image src="/profile-pic.png" width={40} height={40} layout="fixed" />
+
         <p className="whitespace-nowrap pr-3 font-semibold">
           Calviano Nathanael
         </p>
