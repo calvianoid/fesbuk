@@ -20,7 +20,7 @@ export default function Header() {
     <div className="x-50 sticky top-0 flex items-center bg-white p-2 shadow-md lg:px-5">
       {/* Left */}
       <div className="flex items-center">
-        <Image src="/logo-fb.png" width={40} height={40} layout="fixed" />
+        <Image src="/logo-fb.svg" width={40} height={40} layout="fixed" />
         <div className="ml-2 flex items-center rounded-full bg-gray-100 p-2">
           <SearchIcon className="h-6 flex-shrink text-gray-500" />
           <input

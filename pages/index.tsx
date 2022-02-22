@@ -11,7 +11,7 @@ const Home: NextPage = () => {
     <div className="h-screen overflow-hidden bg-gray-100">
       <Head>
         <title>Fesbuk</title>
-        <link rel="icon" href="/logo-fb.png" />
+        <link rel="icon" href="/logo-fb.svg" />
       </Head>
 
       {/* Header */}
