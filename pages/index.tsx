@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Header from '../components/Header'
 import Sidebar from '../components/Sidebar'
 import Feed from '../components/Feed'
+import Widgets from '../components/Widgets'
 
 const Home: NextPage = () => {
   return (
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
         {/* Feed */}
         <Feed />
         {/* Widgets */}
+        <Widgets />
       </main>
     </div>
   )
